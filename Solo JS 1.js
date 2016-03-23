@@ -33,6 +33,7 @@ var sum = 0;
 for(var i=0; i<numList.length; i++) {
   sum += numList[i];
 }
+console.log(sum);
 
 //step 5
 if(boolList[1]) {
