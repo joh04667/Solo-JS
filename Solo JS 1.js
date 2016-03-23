@@ -29,9 +29,10 @@ for(var i = 0; i<numList.length; i++) {
 console.log(numString);
 
 //step 4
-console.log(numList.reduce((a, b) => a + b));
-//please let me know if this isn't what you wanted. i figured .reduce() iterates anyway and fat arrows are too handy to ignore
-
+var sum = 0;
+for(var i=0; i<numList.length; i++) {
+  sum += numList[i];
+}
 
 //step 5
 if(boolList[1]) {
